@@ -3,7 +3,7 @@
 #
 #  alertmailer.py
 #  
-#  Copyright 2017 stak <stak@judas.fragglerock.net>
+#  Copyright 2017 stak <stakovahflow666@gmail.com>
 #  
 #  This program is free software; you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -19,8 +19,16 @@
 #  along with this program; if not, write to the Free Software
 #  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 #  MA 02110-1301, USA.
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#  This python application will connect via SMTP in order to
+#  send alerts to defined email addresses.
+#  Personally used in order to track when servers/desktops
+#  go online in a home network.
 #  
-#  
+#  Todo: 
+#  Upload Windows, Linux, and Mac information for the
+#  application to be run at boot.
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 import os, sys, smtplib, socket, platform, urllib2, time, base64
 from email.MIMEMultipart import MIMEMultipart
